@@ -28,7 +28,6 @@
 
 <!-- Fast Navigation Jump Bar -->
 <p align="center">
-  <a href="#-executive-summary"><b>Executive Summary</b></a> •
   <a href="#-enterprise-tenant-and-management-group-hierarchy"><b>Tenant Hierarchy</b></a> •
   <a href="#-hub-and-spoke-networking--zero-trust-architecture"><b>Hub & Spoke Network</b></a> •
   <a href="#-multi-layered-defense-in-depth-security"><b>Defense-in-Depth</b></a> •
@@ -45,30 +44,6 @@
 ---
 
 </div>
-
-## 👤 Executive Summary
-
-```yaml
-apiVersion: cloud.enterprise/v1
-kind: DevSecOpsPlatformArchitect
-metadata:
-  engineer: "Avinash Kumar"
-  experience: "3+ Years in Enterprise Cloud, DevOps & Security Engineering"
-  domain: "Azure Enterprise-Scale Infrastructure | DevSecOps | Cloud Platforms"
-spec:
-  governance_framework: "Microsoft Cloud Adoption Framework (CAF) & Well-Architected Framework"
-  hierarchy_design: "Multi-Tier Management Groups | Platform & Application Subscriptions"
-  networking_topology: "Hub & Spoke | Centralized Firewall Inspection | UDR 0.0.0.0/0 | Private Link"
-  automation_engine: "Modular Terraform | Azure DevOps YAML Templates | Drift Detection Pipelines"
-  security_baseline: "Zero-Trust | Entra ID PIM | Shift-Left (SAST/SCA/Container/IaC) | Defender for Cloud"
-  cost_and_continuity: "FinOps Optimization | BCDR (RTO/RPO) | Availability Zones | Multi-Region Resiliency"
-```
-
-👋 **Hello, World! I'm Avinash Kumar** — an **Enterprise DevSecOps Engineer & Cloud Platform Architect** with 3+ years of battle-tested experience building, governing, and securing multi-million-dollar cloud environments. 
-
-My work bridges **Cloud Architecture**, **Shift-Left Security**, and **Continuous Delivery**. I specialize in translating high-level business goals into immutable code: from designing **CAF-compliant Azure Management Group hierarchies** and **Hub-and-Spoke networks with zero-trust egress**, to orchestrating **automated Terraform Landing Zones**, **hardened CI/CD supply chains**, and **FinOps cost optimization programs**.
-
----
 
 ## 🏛️ Enterprise Tenant and Management Group Hierarchy
 
