@@ -12,7 +12,7 @@
 
 <!-- Real-Time Status & Experience Badges -->
 <p align="center">
-  <a href="https://linkedin.com/in/avinashkumar1345" target="_blank">
+  <a href="https://linkedin.com/in/avinashkumar1346" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Avinash_Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
   <a href="https://github.com/AjavinashAj">
