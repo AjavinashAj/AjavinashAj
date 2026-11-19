@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:7000FF,100:00FF87&height=230&section=header&text=Avinash%20Kumar&fontSize=48&fontAlignY=36&desc=Enterprise%20DevSecOps%20Engineer%20%7C%20Cloud%20Platform%20Architect&descAlignY=58&descAlign=50&fontColor=ffffff" width="100%" alt="Avinash Kumar Banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:7000FF,100:00FF87&height=230&section=header&text=Avinash%20Kumar&fontSize=48&fontAlignY=36&desc=DevOps%20Engineer&descAlignY=58&descAlign=50&fontColor=ffffff" width="100%" alt="Avinash Kumar Banner"/>
 
 <!-- Dynamic Animated Subtitle -->
 <a href="https://github.com/AjavinashAj">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00F0FF&center=true&vCenter=true&width=880&lines=DevSecOps+Engineer+%7C+Enterprise+Cloud+Platform+Architect;Azure+Enterprise-Scale+Landing+Zones+(CAF)+%26+Hierarchy;Hub+%26+Spoke+Networking+%7C+Firewall+Inspection+%7C+Private+Link;Terraform+Automation+%7C+Drift+Detection+%7C+Shift-Left+Security;Enterprise+Cloud+Migrations+%7C+FinOps+Optimization+%7C+BCDR" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00F0FF&center=true&vCenter=true&width=880&lines=DevOps+Engineer;Azure+Enterprise-Scale+Landing+Zones+(CAF)+%26+Hierarchy;Hub+%26+Spoke+Networking+%7C+Firewall+Inspection+%7C+Private+Link;Terraform+Automation+%7C+Drift+Detection+%7C+Shift-Left+Security;Enterprise+Cloud+Migrations+%7C+FinOps+Optimization+%7C+BCDR" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -16,10 +16,10 @@
     <img src="https://img.shields.io/badge/LinkedIn-Avinash_Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
   <a href="https://github.com/AjavinashAj">
-    <img src="https://img.shields.io/badge/Experience-3+_Years_Enterprise_Cloud-00F0FF?style=for-the-badge&logo=codewars&logoColor=black" alt="Experience Badge"/>
+    <img src="https://img.shields.io/badge/Experience-3+_Years_DevOps_Engineer-00F0FF?style=for-the-badge&logo=codewars&logoColor=black" alt="Experience Badge"/>
   </a>
   <a href="https://github.com/AjavinashAj">
-    <img src="https://img.shields.io/badge/Specialization-Azure_DevSecOps_Architect-7000FF?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Specialization Badge"/>
+    <img src="https://img.shields.io/badge/Specialization-Azure_DevOps_Engineer-7000FF?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Specialization Badge"/>
   </a>
   <a href="https://komarev.com/ghpvc/?username=AjavinashAj&label=PROFILE+VISITS&style=for-the-badge&color=00ff87" target="_blank">
     <img src="https://komarev.com/ghpvc/?username=AjavinashAj&label=PROFILE+VISITS&style=for-the-badge&color=00ff87" alt="Profile Views"/>
@@ -48,7 +48,7 @@
 
 ## 🏛️ Enterprise Tenant and Management Group Hierarchy
 
-> Following the **Microsoft Cloud Adoption Framework (CAF)** methodology (`Strategy ➔ Plan ➔ Ready ➔ Adopt ➔ Govern ➔ Secure ➔ Manage`), I architect scalable subscription models that decouple platform governance from application workloads.
+> Following the **Microsoft Cloud Adoption Framework (CAF)** methodology (`Strategy ➔ Plan ➔ Ready ➔ Adopt ➔ Govern ➔ Secure ➔ Manage`), I implement and manage scalable subscription models that decouple platform governance from application workloads.
 
 ```mermaid
 flowchart TD
@@ -586,7 +586,7 @@ flowchart LR
 
 <div align="center">
 
-<p><b>Whether you are architecting an enterprise Azure Landing Zone, hardening your DevSecOps pipelines, planning a cloud migration, or driving FinOps optimization — let's build the future together!</b></p>
+<p><b>Whether you are building an enterprise Azure Landing Zone, automating CI/CD pipelines, executing cloud migrations, or driving FinOps optimization — let's build the future together!</b></p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/avinashkumar1345" target="_blank">
@@ -606,7 +606,7 @@ flowchart LR
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7000FF,50:0070F3,100:00F0FF&height=130&section=footer" width="100%" alt="Footer Banner"/>
 
 <p align="center">
-  <i>⚡ Architecting Resilient Cloud Foundations & Autonomous DevSecOps Pipelines • © Avinash Kumar ⚡</i>
+  <i>⚡ Engineering Resilient Cloud Foundations & Autonomous CI/CD Pipelines • © Avinash Kumar ⚡</i>
 </p>
 
 </div>
