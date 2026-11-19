@@ -589,13 +589,13 @@ flowchart LR
 <p><b>Whether you are building an enterprise Azure Landing Zone, automating CI/CD pipelines, executing cloud migrations, or driving FinOps optimization — let's build the future together!</b></p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/avinashkumar1345" target="_blank">
+  <a href="https://www.linkedin.com/in/avinashkumar1346/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile"/>
   </a>
   <a href="https://github.com/AjavinashAj" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/>
   </a>
-  <a href="https://www.linkedin.com/in/avinashkumar1345" target="_blank">
+  <a href="https://www.linkedin.com/in/avinashkumar1346/" target="_blank">
     <img src="https://img.shields.io/badge/Direct_Message-Connect_on_LinkedIn-00F0FF?style=for-the-badge&logo=telegram&logoColor=black" alt="Direct Message"/>
   </a>
 </p>
