@@ -33,7 +33,8 @@
   <a href="#-multi-layered-defense-in-depth-security"><b>Defense-in-Depth</b></a> •
   <a href="#-terraform-enterprise-landing-zone-automation"><b>Terraform Automation</b></a> •
   <a href="#-azure-devsecops-pipeline-engineering"><b>CI/CD Pipelines</b></a> •
-  <a href="#-enterprise-cloud-migrations"><b>Cloud Migrations</b></a> •
+  <a href="#-enterprise-cloud-migrations-100-workloads"><b>Cloud Migrations</b></a> •
+  <a href="#-technical-delivery--vendor-governance"><b>Vendor Governance</b></a> •
   <a href="#-finops--cost-optimization"><b>FinOps</b></a> •
   <a href="#-high-availability-bcdr--resilience"><b>BCDR & HA</b></a> •
   <a href="#-observability--monitoring"><b>Observability</b></a> •
@@ -278,46 +279,88 @@ flowchart TD
 
 ---
 
-## 📦 Enterprise Cloud Migrations
+## 📦 Enterprise Cloud Migrations (100+ Workloads)
 
-> Orchestrating seamless, low-risk enterprise migrations from on-premises data centers to Azure utilizing the **6 R's Strategy** (*Rehost, Replatform, Refactor, Repurchase, Retire, Retain*).
+> End-to-end wave-based migration of **100+ multi-tier workloads** across **Dev, UAT, and Production** environments from on-premises datacenters to Azure multi-subscription architectures. Engineered to be **Scalable, Robust, Secure, Reliable, Governed, Highly Available, Cost-Optimized, Backed-up, Monitored, and Compliant** following the **Microsoft Cloud Adoption Framework (CAF)**.
 
 ```
-   [ DISCOVERY & ASSESSMENT ] ➔ [ PRE-MIGRATION CHECKLIST ] ➔ [ CUTOVER WINDOW ] ➔ [ HYPERCARE & STABILIZATION ]
+   [ 1. DISCOVERY & ASSESSMENT ] ➔ [ 2. READINESS & SEEDING ] ➔ [ 3. CUTOVER EXECUTION ] ➔ [ 4. HYPERCARE & STABILIZATION ]
 ```
 
 <table width="100%">
   <tr>
-    <th width="33%">📋 Pre-Migration Checklist</th>
+    <th width="33%">📋 Pre-Migration & Readiness</th>
     <th width="33%">⚡ Cutover Window Execution</th>
-    <th width="33%">🩺 Post-Migration & Hypercare</th>
+    <th width="33%">🩺 Post-Cutover & Hypercare</th>
   </tr>
   <tr>
     <td valign="top">
       <ul>
-        <li>Dependency mapping & network topology audit with <b>Azure Migrate</b>.</li>
-        <li>Target landing zone validation (Subnets, NSGs, UDRs, Firewall routes).</li>
-        <li>Identity synchronization & RBAC access confirmation.</li>
-        <li>Initial data seeding & continuous replication verification.</li>
-        <li>Documented rollback & contingency plan approval.</li>
+        <li><b>Comprehensive Discovery</b>: Automated appliance deployment via <b>Azure Migrate</b> for inventory profiling and dependency mapping.</li>
+        <li><b>Workload Readiness Assessment</b>: TCO calculation, SKU right-sizing recommendations, and network readiness evaluation.</li>
+        <li><b>Landing Zone Seeding</b>: Subnet allocation, NSGs, UDRs, and Private Endpoint readiness across Dev, UAT, and Prod subscriptions.</li>
+        <li><b>Identity & Access Parity</b>: Entra ID sync validation, RBAC security group assignment, and credential migration.</li>
+        <li><b>Replication Baselines</b>: Continuous data seeding via ASR/Azure Migrate with delta sync verification (<5 min lag).</li>
+        <li><b>Contingency Planning</b>: Documented rollback runbooks, change freeze schedule, and CAB approvals.</li>
       </ul>
     </td>
     <td valign="top">
       <ul>
-        <li>Execution of strict change window schedule.</li>
-        <li>Final differential data synchronization & data integrity checksums.</li>
-        <li>Source system service freeze & network redirection.</li>
-        <li>DNS TTL lowering and DNS switch to Azure Private/Public endpoints.</li>
-        <li>System smoke tests and application health sign-offs.</li>
+        <li><b>Strict Change Window</b>: Executed scheduled cutover sequence during planned weekend maintenance window.</li>
+        <li><b>Final Differential Sync</b>: Source application freeze, final incremental database & storage replication, and checksum audit.</li>
+        <li><b>Traffic Cutover & DNS Switch</b>: Lowered DNS TTL (to 300s), modified DNS records pointing to Azure Private / Front Door Endpoints.</li>
+        <li><b>Middleware & Service Bootstrapping</b>: Verified custom-data/cloud-init service startups, IIS/Nginx configs, and DB connections.</li>
+        <li><b>End-to-End Smoke Testing</b>: Automated synthetic health probes and business stakeholder functional sign-offs.</li>
+        <li><b>Failback Readiness</b>: Maintained synchronized on-premises snapshot fallback until validation completion.</li>
       </ul>
     </td>
     <td valign="top">
       <ul>
-        <li>Comprehensive 24/7 <b>Hypercare Support</b> window (1-2 weeks).</li>
-        <li>Performance profiling & right-sizing based on actual telemetry.</li>
-        <li>Verification of automated backup schedules & DR replication.</li>
-        <li>Azure Monitor alerts & logging validation.</li>
-        <li>Decommissioning of legacy on-premises assets.</li>
+        <li><b>Dedicated Hypercare (2 Weeks)</b>: 24/7 war room support, telemetry monitoring, and rapid defect resolution.</li>
+        <li><b>Performance & Telemetry Profiling</b>: Telemetry auditing via Azure Monitor & App Insights to identify bottlenecks.</li>
+        <li><b>BCDR Policy Attachment</b>: Enforced automated Azure Backup policies and secondary region ASR replication baselines.</li>
+        <li><b>FinOps Post-Mortem</b>: Cleaned staging storage accounts, removed migration replication appliances, and rightsized SKUs.</li>
+        <li><b>Decommissioning Lifecycle</b>: Managed graceful archival, snapshot retention, and final decommission of on-prem hosts.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🤝 Technical Delivery & Vendor Governance
+
+> Bridging engineering execution with enterprise governance — managing cross-functional delivery, technical task assignments, and 3rd-party vendor engagements.
+
+<table width="100%">
+  <tr>
+    <th width="33%">🎯 Technical Task & Sprint Ownership</th>
+    <th width="33%">📑 RFP, RFI & Vendor Evaluation</th>
+    <th width="33%">🛡️ Governance, Escalation & Milestones</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li><b>Scope & Deliverable Definition</b>: Formulating crisp engineering scope, acceptance criteria, and Definition of Done (DoD) in Azure Boards/Jira.</li>
+        <li><b>Sprint Planning & Cadence</b>: Leading bi-weekly sprint planning, dependency mapping, and blocker resolution across cross-functional teams.</li>
+        <li><b>Risk & Dependency Management</b>: Identifying critical technical path blockers, infrastructure lead times, and mitigation roadmaps.</li>
+        <li><b>Technical Accountability</b>: Enforcing code review standards and architecture alignment for internal & contractor teams.</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <ul>
+        <li><b>RFP & RFI Evaluation</b>: Assisting in Request for Proposal (RFP) and Request for Information (RFI) technical reviews for tooling and services.</li>
+        <li><b>Technical Evaluation Matrix</b>: Scoring vendor architecture capabilities, security baselines, compliance adherence, and SLA viability.</li>
+        <li><b>Commercial Proposal Analysis</b>: Aligning technical requirements against vendor commercial proposals to optimize TCO.</li>
+        <li><b>Statement of Work (SOW)</b>: Translating architectural deliverables into enforceable SOW technical requirements.</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <ul>
+        <li><b>Least-Privilege Vendor Access</b>: Enforcing Entra ID B2B Guest accounts with Conditional Access (MFA, compliant device) and time-bound PIM roles.</li>
+        <li><b>Escalation Matrix Design</b>: Multi-tier incident & delivery escalation pathways ensuring rapid turnaround for P1/P2 impediments.</li>
+        <li><b>Operational Reviews & Retros</b>: Running structured weekly review syncs and retrospective sessions to continuously refine velocity.</li>
+        <li><b>Milestone Sign-Off</b>: Validating technical acceptance criteria for contract deliverables and approving payment milestones.</li>
       </ul>
     </td>
   </tr>
